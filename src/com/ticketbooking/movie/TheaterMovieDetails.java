@@ -77,7 +77,7 @@ public class TheaterMovieDetails {
 			if(movie.getTheaterId()==3) {
 				theaterName="Aarthi Theater,Chennai";
 			}
-			System.out.println("Movie: "+movie.getMovieName()+" Cast:"+movie.getCast()+" Genre:"+movie.getGenre()+" Theater Name:"+theaterName+" Rating:"+movie.getRating()+" Price:"+movie.getPrice());
+			System.out.println("Movie title: "+movie.getMovieName()+" Cast:"+movie.getCast()+" Genre:"+movie.getGenre()+" Theater Name:"+theaterName+" Rating:"+movie.getRating()+" Price:"+movie.getPrice());
 			
 		}
 	}
